@@ -1,0 +1,28 @@
+# Core (same as local)
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+networkx
+spacy
+biopython
+requests
+beautifulsoup4
+rapidfuzz
+pandas
+joblib
+lightgbm
+groq
+python-dotenv
+pytest
+httpx
+
+# Training + visualization (Colab only)
+scikit-learn
+matplotlib
+seaborn
+
+# NOTE:
+# For LightGBM GPU in Colab, run manually after install:
+# !apt-get install -y libboost-all-dev
+# !pip install lightgbm --config-settings=cmake.define.USE_GPU=ON

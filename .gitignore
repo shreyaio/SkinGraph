@@ -1,0 +1,20 @@
+# Environments
+.env
+
+# Data
+data/raw/
+data/graph/
+
+# ML Artifacts
+models/artifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
